@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import './Form.css'
 import Input from '../Input/Input'
 import { useState, useEffect } from 'react'
 
