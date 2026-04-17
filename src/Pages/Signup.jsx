@@ -96,7 +96,7 @@ export default function Signup() {
         },
     ]
     return (
-        <div className="bg-[url(/assets/img/authbg.jpg)] h-screen bg-no-repeat bg-cover flex justify-center items-center">
+        <div className="py-8 bg-[url(/assets/img/authbg.jpg)] h-screen bg-no-repeat bg-cover flex justify-center items-center">
         <Form
             title={'Sign Up'}
             subTitle={'Create a account to continue'}
