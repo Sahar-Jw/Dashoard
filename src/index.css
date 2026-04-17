@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import "tailwindcss";
+*{
+  box-sizing: border-box;
+  font-family: 'Nunito Sans';
+}
+:root {
+  --main: #4880FF;
+  --text: #202224;
+  --sec-text: #A6A6A6;
+  --bg: #fff;
+  --sec-bg: #F1F4F9;
+  --third-bg:#F5F6FA;
+  --border: #D8D8D8;
+  --sec-border:#D5D5D5;
+  --red:#EF3826;
+}
+
+@theme {
+  --color-main: #4880FF;
+  --color-text: #202224;
+  --color-sec-text:#A6A6A6;
+  --color-bg:#fff;
+  --color-sec-bg:#F1F4F9;
+  --color-third-bg:#F5F6FA;
+  --color-sec-text:#A6A6A6;
+  --color-border:#D8D8D8;
+  --color-sec-border:#D5D5D5;
+  --color-red:#EF3826;
+
+}
+
+
