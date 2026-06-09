@@ -36,7 +36,7 @@ export default function Table({ products = [], onDelete }) {
                         <td className='px-2 md:px-3 py-3'>
                             <img src={product.image_url} alt={product.name} className='rounded-2xl  m-auto w-15 object-contain md:object-fill h-15 md:w-30 md:h-28.5' />
                         </td>
-                        <td className='px-4 md:px-3 py-3 flex flex-col items-center gap-12 md:flex-row md:justify-center md:gap-0 '>
+                        <td className='px-4 md:px-3 py-3 flex flex-col mt-0  md:mt-10 items-center gap-12 md:flex-row md:justify-center md:gap-0 '>
                             <Link to={`/dashboard/edit/${product.id}`}>
                                 <button  className='w-8.75 h-8 bg-[#FAFBFD] rounded-lg  m-0 md:rounded-bl-lg md:rounded-br-none md:rounded-tr-none  md:rounded-tl-lg border border-border border-solid flex items-center justify-center cursor-pointer text-[#565656] text-[16px] transition duration-500 ease-linear hover:text-[18px] '>
                                     <FaRegEdit />

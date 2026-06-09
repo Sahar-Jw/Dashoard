@@ -35,7 +35,7 @@ export default function Dashboard() {
         }).then(res => res.json())
         .then(res =>{
             localStorage.removeItem('token');
-            navigate('/');
+            navigate('/signin');
         })
         .catch(error => console.error('Error submitting data:', error));
     };
