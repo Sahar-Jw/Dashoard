@@ -41,10 +41,11 @@ export default function Dashboard() {
     };
 
     const location = useLocation();
-    const currentPath = location.pathname.replace('/dashboard', '') || '';
+    let currentPath = location.pathname.replace('/dashboard', '') || '';
+    currentPath = currentPath.replace(/\/edit\/[a-zA-Z0-9-]+/, '/edit');
     const logoText = currentPath
-        ? `Products${currentPath.toLowerCase()}`
-        : 'Products';
+    ? `Products${currentPath.toLowerCase()}`
+    : 'Products';
 
     return (
         <div className="flex min-h-screen">

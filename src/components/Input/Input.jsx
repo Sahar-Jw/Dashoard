@@ -45,6 +45,7 @@ export default function Input({htmlFor,label,type,placeholder,name,attribute,hid
             ps-2
             md:text-[16px]
             text-[14px]
+            focus:outline-blue-400
             `} />
             </>
         )}
